@@ -1,0 +1,121 @@
+body {
+  background-color: #ADD8E6; ;
+  color: #fff;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  background-color: rgba(0, 0, 0, 0.7); 
+  backdrop-filter: blur(5px); 
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.nav {
+  display: flex;
+  gap: 10px;
+}
+
+.nav select {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 5px;
+}
+
+.user-section {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.sign-out {
+  background-color: #e74c3c;
+  color: #fff;
+  text-decoration: none;
+  padding: 5px 15px;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.sign-out:hover {
+  background-color: #c0392b;
+}
+
+.reports {
+  background-color: #333;
+  padding: 5px 10px;
+  border-radius: 3px;
+}
+
+.status {
+  background-color: #333;
+  padding: 15px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+
+.status h3 {
+  margin: 0;
+}
+
+.status p {
+  margin: 5px 0;
+}
+
+.status img {
+  max-width: 50%; 
+  height: auto;
+  display: block;
+  margin: 10px 0;
+}
+
+.pending {
+  background-color: #222121;
+}
+
+.resolved {
+  background-color: #000000;
+}
+
+.assigned {
+  background-color: #e67e22;
+  padding: 5px 10px;
+  display: inline-block;
+  border-radius: 3px;
+}
+
+.status select {
+  background-color: #000000;
+  color: #fff;
+  border: none;
+  padding: 5px;
+  float: right;
+}
+
+.status.resolved select {
+  background-color: #2ecc71;
+}
+
+.emergency-info {
+  background-color: #e74c3c; /* Red background for emphasis */
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 3px;
+  display: inline-block;
+  font-size: 14px;
+  text-align: left;
+  width: auto;
+}
+
+.image {
+  width: 50%;
+  height: auto;
+  object-fit: cover;
+}

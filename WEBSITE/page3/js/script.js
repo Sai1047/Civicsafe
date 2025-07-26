@@ -1,0 +1,1 @@
+console.log("CivicSafe Community loaded at " + new Date().toLocaleString("en-US", { timeZone: "Asia/Dhaka" }));

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Admin Dashboard</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- font awesome cdn -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <!-- fonts -->
+        <link rel = "stylesheet" href = "font/fonts.css">
+        <!-- normalize css -->
+        <link rel = "stylesheet" href = "css/normalize.css">
+    </head>
+<body>
+  <div class="header">
+    <h1>Admin Dashboard</h1>
+    <div class="nav">
+      <select>
+        <option>All Statuses</option>
+        <option>Pending</option>
+        <option>Resolved</option>
+      </select>
+      <select>
+        <option>All Types</option>
+        <option>Emergency</option>
+        <option>Accident</option>
+      </select>
+    </div>
+    <div class="user-section">
+      <span>Tanvir</span>
+      <a href="#" class="sign-out">Sign out</a>
+      <span class="reports">3 Reports</span>
+    </div>
+  </div>
+  <div class="status pending">
+    <h3>Emergency Evacuation <span>  PENDING</span> <select><option>  PENDING</option></select></h3>
+    <p>The image shows a large building engulfed in flames and thick black smoke billowing out. People are evacuating the premises in a rush, with some carrying personal belongings. <br>
+        Emergency vehicles such as fire trucks and ambulances are present at the scene, with firefighters actively working to extinguish the blaze and provide assistance.</p>
+    <img class="image" src="fire.jpg" alt="Emergency Evacuation">
+    Assigned to: <p class="assigned"> Fire Department</p>
+    <p>EMERGENCY | 23:03:14.6, 80.440223 | 5/20/2025</p>
+  </div>
+  <div class="status resolved">
+    <h3>Serious Car Accident on Highway <span>  RESOLVED</span> <select><option>RESOLVED</option></select></h3>
+    <p>The image depicts the aftermath of a severe multi-vehicle collision on a busy highway. Several cars appear to be damaged, with debris scattered across the road. Emergency responders, <br> including ambulances and fire trucks, are present at the scene, likely providing medical assistance to any injured individuals and securing the area.</p>
+    <img class="image" src="accident.jpg" alt="Car Accident">
+    Assigned to: <p class="assigned"> Fire Department</p>
+    <p>EMERGENCY | 23:03:14.6, 80.440223 | 5/20/2025</p>
+  </div>
+  <script src="admin_dashboard.js"></script>
+</body>
+</html>
